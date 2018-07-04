@@ -24,6 +24,9 @@ class ComposersTableSeeder extends Seeder
             [
                 'name' => "Geoff Zanelli",
             ],
+            [
+                'name' => "Xavier Dang aka MisterMV",
+            ],
         ]);
     }
 }

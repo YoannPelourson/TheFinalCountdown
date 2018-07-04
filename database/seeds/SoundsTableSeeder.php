@@ -40,6 +40,14 @@ class SoundsTableSeeder extends Seeder
                 'price' => 15,
                 'stock' => 8,
             ],
+            [
+                'title' => "Bokkida OST",
+                'genre_id' => 1,
+                'composer_id' => 5,
+                'price' => 20,
+                'stock' => 1,
+            ],
+
         ]);
     }
 }
