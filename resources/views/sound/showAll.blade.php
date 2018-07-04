@@ -3,8 +3,11 @@
 <h2>Our OST</h2>
 <ul>
     @foreach($sounds as $sound)
+    
        <h3> Title: {{ $sound->title }}</h3>
-       <li>Genre: {{ $sound->genre->name }}</li>
+       @foreach($sound->genre as $genre)
+       <li>Genre: {{ $genre->name }}</li>
+       @endforeach
        <li>Composer: {{ $sound->composer->name}}</li>
        <li>Price: {{ $sound->price }}</li>
        <li>Stock: {{ $sound->stock }}</li>
@@ -24,3 +27,5 @@
     @endforeach
 </ul>
 @endsection
+
+

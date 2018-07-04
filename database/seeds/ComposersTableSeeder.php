@@ -22,7 +22,7 @@ class ComposersTableSeeder extends Seeder
                 'name' => "John Williams",
             ],
             [
-                'name' => "Geoff Zanelli",
+                'name' => "Hans Zimmer",
             ],
             [
                 'name' => "Xavier Dang aka MisterMV",

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Sound extends Model
 {
     public function genre() {
-        return $this->belongsTo('App\Genre');
+        return $this->belongsToMany('App\Genre');
     }
 
     public function composer(){

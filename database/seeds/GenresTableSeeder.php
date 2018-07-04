@@ -18,7 +18,12 @@ class GenresTableSeeder extends Seeder
             [
                 'name' => "Movie",
             ],
-            
+            [
+                'name' => "RPG",
+            ],
+            [
+                'name' => "RogueLike",
+            ],
         ]);    
     }
 }

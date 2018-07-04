@@ -8,7 +8,7 @@
     <input type="text" name='title' value="{{ $soundToUpdate->title }}" id='title'>
 
     <label for="genre">Genre: </label>
-    <select name="genre" id="genre">
+    <select name="genre[]" id="genre" multiple>
         @foreach($genres as $genre)
         <option value="{{ $genre->id }}">{{ $genre->name }}</option>
         @endforeach

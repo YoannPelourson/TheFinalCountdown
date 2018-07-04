@@ -6,16 +6,16 @@
     <input type="text" name='title' id='title'>
 
     <label for="genre">Genre: </label>
-    <select name="genre" id="genre">
+    <select name="genre[]" id="genre" multiple>
         @foreach($genres as $genre)
         <option value="{{ $genre->id }}">{{ $genre->name }}</option>
         @endforeach
     </select>
     
     <label for="composer">Composer: </label>
-    <select name="composer" id="composer">
+    <select  name="composer" id="composer" >
         @foreach($composers as $composer)
-        <option value="{{ $composer->id }}">{{ $composer->name }}</option>
+        <option  value="{{ $composer->id }}">{{ $composer->name }}</option>
         @endforeach
     </select>
 
