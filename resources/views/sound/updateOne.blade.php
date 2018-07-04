@@ -27,7 +27,7 @@
     <label for="stock">Stock: </label>
     <input type="number" name="stock" value="{{ $soundToUpdate->stock }}" id="stock">
 
-    <input type="submit" value="send">
+    <input class="validate-button" type="submit" value="send">
 
 </form>
 @endsection

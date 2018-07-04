@@ -31,6 +31,6 @@
 
 <form action="/composer/insertOne" method="GET">
     <label for="missCompo">Your composer don't be here?</label>
-    <input type="submit" value="Add him">
+    <input class="validate-button" type="submit" value="Add him">
 </form>
 @endsection
