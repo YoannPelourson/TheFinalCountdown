@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
-    <title>Document</title>
+    <title>Geek'n'Songs</title>
 </head>
 <body>
     <header>
