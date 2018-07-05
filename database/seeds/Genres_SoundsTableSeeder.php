@@ -11,7 +11,7 @@ class Genres_SoundsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('genres_sounds')->insert([
+        DB::table('genre_sound')->insert([
             [
                 'genre_id' => 1,
                 'sound_id' => 1,

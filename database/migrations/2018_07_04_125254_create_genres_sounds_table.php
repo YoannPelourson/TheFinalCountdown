@@ -13,7 +13,7 @@ class CreateGenresSoundsTable extends Migration
      */
     public function up()
     {
-        Schema::create('genres_sounds', function (Blueprint $table) {
+        Schema::create('genre_sound', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('genre_id');
             $table->integer('sound_id');
