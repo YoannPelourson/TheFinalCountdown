@@ -1,6 +1,7 @@
 @extends('template')
 @section('content')
-<form action="/sound/updateAction" method="POST">
+<div class="form-sound">
+<form class="insert-sound" action="/sound/updateAction" method="POST">
 @csrf
     <input type="hidden" name="id" value="{{ $soundToUpdate->id }}">
 
@@ -30,4 +31,5 @@
     <input class="validate-button" type="submit" value="send">
 
 </form>
+</div>
 @endsection

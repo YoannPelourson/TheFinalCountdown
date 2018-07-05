@@ -20,3 +20,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 const app = new Vue({
     el: '#app'
 });
+
+document.querySelectorAll('body').addEventListener('click', function(el){
+    debugger;
+});
