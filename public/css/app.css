@@ -87,6 +87,7 @@ header a:hover {
 main {
   font-family: 'Oswald', sans-serif;
   background-image: url("/img/white_wall_hash.png");
+  min-height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,8 +115,6 @@ main .form-sound {
   display: flex;
   position: relative;
   top: 20%;
-}
-main .form-sound {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -131,6 +130,10 @@ main .insert-sound {
           flex-direction: column;
   width: 100%;
   padding: 1%;
+}
+main img {
+  max-width: 50%;
+  max-height: 50%;
 }
 footer {
   height: 10vh;

@@ -16,6 +16,7 @@ class CreateComposersTable extends Migration
         Schema::create('composers', function (Blueprint $table) {
             $table->increments('id');
             $table->text('name');
+            $table->text('picture');
             $table->timestamps();
         });
     }

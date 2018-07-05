@@ -74,7 +74,7 @@ main{
     font-family: 'Oswald', sans-serif;
     background-image: url("/img/white_wall_hash.png");
     //background-color:whitesmoke;
-    //height: 80vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,16 +91,21 @@ main{
         display: flex;
         position: relative;
         top: 20%;
+        flex-direction: column;
        
     }
     .form-sound{
-        flex-direction: column;
+        
     }
     .insert-sound{
         display: flex;
         flex-direction: column;
         width:100%;
         padding: 1%;
+    }
+    img{
+        max-width: 50%;
+        max-height: 50%
     }
     
 } 

@@ -16,6 +16,7 @@ class ComposerController extends Controller
         $newComposer = new Composer;
 
         $newComposer->name=$request->name;
+        $newComposer->picture=$request->picture;
         $newComposer->save();
 
         return redirect('/composers/showAll');
@@ -41,6 +42,7 @@ class ComposerController extends Controller
 
         //dd($composerToUpdate);
         $composerToUpdate->name=$request->name;
+        $composerToUpdate->picture=$request->picture;
         $composerToUpdate->save();
         return redirect('/composers/showAll');
     }
